@@ -1,0 +1,87 @@
+{
+  "name": "Md. Asadozzaman",
+  "role": "Senior AI Engineer",
+  "focus": "Computer Vision & Production AI",
+  "location": "Dhaka, Bangladesh",
+  "employer": "Tau Research Limited",
+  "employment_period": "August 2022 – present",
+  "email": "asadozzaman278061@gmail.com",
+  "github": "https://github.com/asadozzaman",
+  "linkedin": "https://www.linkedin.com/in/md-asadozzaman/",
+  "site_url": "https://asadozzaman.github.io",
+  "reviewed": "2026-10-04",
+  "intro": "I connect computer vision models, evaluation, and software into practical AI systems. My work spans 5+ years of applied AI and backend engineering.",
+  "experience": "At Tau Research Limited, I contribute to applied computer vision and the software around it: model integration, backend applications, and cloud workflows. Working across these layers has shaped how I approach reliability, validation, and maintainable systems.",
+  "projects": [
+    {
+      "slug": "video-analytics",
+      "number": "01",
+      "category": "vision",
+      "label": "VIDEO INTELLIGENCE",
+      "title": "From video frames to inspectable results.",
+      "name": "Production Video Analytics",
+      "summary": "A modular YOLO + ByteTrack pipeline that turns video into annotated output, track observations, and a reproducible run summary.",
+      "status": "Working baseline",
+      "tags": ["Python", "YOLO", "ByteTrack", "Evaluation"],
+      "repository": "https://github.com/asadozzaman/production-video-analytics",
+      "detail": "projects/video-analytics/",
+      "evidence": "393 frames · recorded CPU run",
+      "boundary": "Counting and accuracy evaluation are future milestones."
+    },
+    {
+      "slug": "cvat-roundtrip",
+      "number": "02",
+      "category": "vision",
+      "label": "ANNOTATION INTEGRITY",
+      "title": "Trust the annotations. Check the round trip.",
+      "name": "CVAT Annotation Round Trip",
+      "summary": "A programmatic CVAT experiment that exports and re-imports a video track, then checks its geometry, timing, and frame alignment.",
+      "status": "Recorded experiment",
+      "tags": ["CVAT API", "Python", "Video annotation"],
+      "repository": "https://github.com/asadozzaman/cvat-video-annotation-roundtrip",
+      "detail": "projects/cvat-roundtrip/",
+      "evidence": "35/35 recorded checks passed",
+      "boundary": "One synthetic video and one rectangle track."
+    },
+    {
+      "slug": "clear-rag",
+      "number": "03",
+      "category": "systems",
+      "label": "LLM EVALUATION",
+      "title": "Make RAG answers easier to evaluate.",
+      "name": "CLEAR-RAG",
+      "summary": "An evaluation application bringing together retrieval metrics, model-based judging, human review, and experiment comparison.",
+      "status": "Application implementation",
+      "tags": ["FastAPI", "Next.js", "RAG"],
+      "repository": "https://github.com/asadozzaman/Evaluating-Production-Grade-RAG-Systems",
+      "detail": null,
+      "evidence": "Retrieval · evaluation · human review",
+      "boundary": "Evaluation workflows do not establish deployment readiness."
+    },
+    {
+      "slug": "database-assistant",
+      "number": "04",
+      "category": "systems",
+      "label": "AI APPLICATION ENGINEERING",
+      "title": "Give database questions a clear context.",
+      "name": "Database Chat Assistant",
+      "summary": "A database chat MVP with schema discovery, lexical retrieval, foreign-key relationships, SQL validation, and query history.",
+      "status": "Application MVP",
+      "tags": ["Python", "FastAPI", "SQL", "Next.js"],
+      "repository": "https://github.com/asadozzaman/AI-Powered-Multi-Table-Database-Chat-Assistant",
+      "detail": null,
+      "evidence": "Schema context · SQL validation · history",
+      "boundary": "A local demonstration; production security needs further work."
+    }
+  ],
+  "expertise": [
+    {"title": "Vision & video", "description": "Detection, tracking, annotation workflows, and structured video outputs.", "tools": "Python · PyTorch · YOLO · OpenCV · CVAT · ByteTrack"},
+    {"title": "Systems & delivery", "description": "APIs, background processing, cloud workflows, and software around models.", "tools": "Django · FastAPI · PostgreSQL · Redis · Docker · AWS"},
+    {"title": "Evaluation & AI applications", "description": "Reproducible experiments, retrieval evaluation, and human review workflows.", "tools": "RAG · LLM integration · Automated checks · CI/CD"}
+  ],
+  "reading": [
+    {"type": "ENGINEERING NOTES", "title": "What a video pipeline should record", "description": "Configuration, timings, and output contracts that make a run inspectable.", "url": "https://github.com/asadozzaman/production-video-analytics/blob/main/docs/architecture.md", "action": "Read design notes"},
+    {"type": "EXPERIMENT REPORT", "title": "Verifying a CVAT annotation round trip", "description": "Frame indices, visibility boundaries, and geometry across two CVAT tasks.", "url": "https://github.com/asadozzaman/cvat-video-annotation-roundtrip/blob/main/reports/CVAT_MINI_TEST_REPORT.md", "action": "Read the report"},
+    {"type": "PROFESSIONAL WRITING", "title": "Notes from applied AI engineering", "description": "I share perspectives on computer vision, evaluation, and the systems around AI on LinkedIn.", "url": "https://www.linkedin.com/in/md-asadozzaman/", "action": "Visit LinkedIn"}
+  ]
+}
